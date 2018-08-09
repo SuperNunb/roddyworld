@@ -1,0 +1,25 @@
+html {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mainBanner {
+    text-align: center;
+    border-bottom: 0.4em solid rgb(192,125,190);
+    border-top: 0.4em solid rgb(192,125,190);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    font-family: 'Trebuchet MS';
+    font-size: 3em;
+    background-color: rgb(255, 28, 28);
+    color: rgb(203,220,29);
+}
+#tempGreet {
+    text-align: center;
+    color: rgb(203,220,29);
+    background-color: rgb(255, 28, 28);
+    font-size: 2em;
+    padding: 1em;
+}
