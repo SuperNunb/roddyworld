@@ -1,0 +1,165 @@
+html {
+    background-image: url("pics/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    font-size: 1em;
+    color: rgb(192,125,190);
+    border-radius: 25px;
+}
+body {
+    margin: 0em;
+}
+a {
+    color: rgb(192,125,190);
+    text-decoration-line: none;
+}
+#mainBanner {
+    border-bottom: 0.4em solid rgb(192,125,190);
+    border-top: 0.4em solid rgb(192,125,190);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    font-size: 3em;
+    color: rgb(203,220,29);
+    background-color: rgb(255, 28, 28);
+    border-radius: 15px;
+}
+#serverLink {
+    margin: 2em;
+    padding: 0.5em;
+    font-size: 2em;
+    background-color: rgb(255, 28, 28);
+    color: rgb(203,220,29);
+    border: 0.2em solid rgb(192,125,190);
+    border-radius: 0.75em;
+}
+#serverLink:hover {
+    border: 0.3em solid rgb(255, 28, 28);
+    background-color: rgb(192,125,190);
+    padding:0.4em;
+}
+#serverLink:active {
+    border-width: 0.15em;
+}
+#bots {
+    margin-left: 2em;
+    margin-right: 2em;
+    border: 1.5em solid rgb(203,220,29);
+    border-top-width: 1em;
+    border-radius: 2em;
+}
+table, th, td, tr {
+    margin-left: 0em;
+    margin-right: 0em;
+    text-align: center;
+    border-collapse: collapse;
+}
+td, th {
+    width: 30%;
+    background-color: rgb(255, 28, 28);
+}
+.botName {
+    padding: 1em;
+    font-size: 2.3em;
+    color: rgb(203,220,29);
+}
+.botDesc {
+    padding: 2em;
+    font-size: 1.3em;
+}
+.botInvi {
+    padding: 2em;
+    padding-top: 0.5em;
+    font-size: 2.5em;
+}
+.botComm {
+    padding: 2em;
+    font-size: 1.3em;
+}
+.botGit {
+    padding: 2em;
+    font-size: 1.3em;
+}
+.comList {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-height: 9.5824em;
+    overflow-y: auto;
+    text-align: left;
+}
+.comTitle {
+    color: rgb(203,220,29);
+    font-size: 1.7em;
+}
+.inviText {
+    border: 0.2em solid rgb(203,220,29);
+    padding: 0.2em;
+    background-color: rgb(192,125,190);
+    color: rgb(203,220,29);
+    border-radius: 0.5em;
+}
+.inviText:hover {
+    border: 0.3em solid rgb(192,125,190);
+    padding:0.1em;
+    background-color: rgb(203,220,29);
+    color: rgb(192,125,190);
+}
+.inviText:active {
+    border-width:0.15em;
+}
+.botGitLink {
+    border: 0.5em solid rgb(192,125,190);
+    padding: 0.5em;
+    background-color: rgb(203,220,29);
+    border-radius: 0.75em;
+    color: rgb(255, 28, 28);
+}
+.botGitLink:hover {
+    border: 0.6em solid rgb(203,220,29);
+    padding: 0.4em;
+    background-color: rgb(192,125,190);
+}
+.botGitLink:active {
+    border-width:0.4em;
+}
+#siteDesc {
+    margin: 0em;
+    padding: 1em;
+    background-color: rgb(255, 28, 28);
+    font-size: 1.5em
+}
+#inTextServer:hover {
+    color: rgb(203,220,29);
+    background-color: rgb(192,125,190);
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(192,125,190);
+    border-radius: 15em;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(203,220,29);
+    border-radius: 15em;
+    
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(203,220,29); 
+}
+b {
+    color: rgb(203,220,29);
+}
+.botPics {
+    width: 10em;
+    height: 10em;
+    border: 1em solid rgb(192,125,190);
+    border-radius: 7em;
+}
