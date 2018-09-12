@@ -1,1 +1,1 @@
-
+window.open("index.html");
